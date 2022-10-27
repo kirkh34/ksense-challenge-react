@@ -1,0 +1,60 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 25px;
+}
+/* Table Styles */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  margin: auto;
+  cursor: pointer;
+}
+
+th {
+  background-color: #202020;
+  color: #eee;
+  padding: 10px;
+}
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+.selected {
+  background: #aaa !important;
+}
+
+#postHeader,
+#pageHeader {
+  background-color: #dedede;
+  text-align: center;
+  padding: 15px;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.post {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.post:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.post hr {
+  border-color: #eee;
+  border-style: solid;
+}
